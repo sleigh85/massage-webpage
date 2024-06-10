@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="/styles\contactme.css"/>
+        <title>Page 2</title>
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <h1>Sonya Hammonds LMBT</h1>
+            <div>
+                <ul class="nav-links">
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="qandlinks.html">Q&A</a></li>
+                    <li> <a href="mediapage.html">Media</a></li>
+                    <li> <a href="contactme.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <form action="/form-handling-url" method="post">
+                <fieldset>
+                    <legend>Contact Me</legend>
+                    <div class="text_input">
+                        <label for="name">Your name</label>
+                        <input type="text" id="name" name="usersname">
+                    </div>
+                    <div>
+                        <label for="phone_numnber">Your number</label>
+                        <input type="number" id="phone_numnber" name="phone">
+                    </div>
+                    <div>
+                        <label for="email">Your email</label>
+                        <input type="email" id="email" name="user_email">
+                    </div>
+                    <div>
+                        <label for="message">Enter your message</label>
+                        <textarea id="message" name="message" placeholder="Write your message here." style="height: 200px;"></textarea>
+                    </div>
+                    <div class="container">
+                        <input type="checkbox" id="text" value="text_signup">
+                        <label for="text">Prefer a text response?</label>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="submit">Send</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
